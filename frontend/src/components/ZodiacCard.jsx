@@ -12,7 +12,7 @@ function ZodiacCard({ signo, alReves }) {
         <p><b>Lo bueno:</b> {signo.bueno}</p>
         <p><b>Lo malo:</b> {signo.malo}</p>
       </div>
-      <img src={signo.img} className="foto" />
+  <img src=/assets/imagenes/aries.jpg",${signo.id}.jpg`} alt={signo.nombre} className="foto-signo" />
     </div>
   )
 }
